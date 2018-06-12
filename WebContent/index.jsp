@@ -5,8 +5,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
+
 </head>
 <body>
-
+	<div id="wrapper">
+		<div id="title"></div><br>
+		<div id="input"><button>Input</button></div>
+		<div id="output"><button>Output</button></div>
+	</div>
 </body>
 </html>
