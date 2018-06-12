@@ -5,13 +5,23 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
-
+<script>
+	window.onload = function(){
+		document.getElementById("input").onclick = function(){
+			location.href = "input.jsp";
+		}
+		
+		document.getElementById("output").onclick = function(){
+			location.href = "output.jsp";
+		}
+	}
+</script>
 </head>
 <body>
 	<div id="wrapper">
 		<div id="title"></div><br>
-		<div id="input"><button>Input</button></div>
-		<div id="output"><button>Output</button></div>
+		<div><button id="input">Input</button></div>
+		<div><button  id="output">Output</button></div>
 	</div>
 </body>
 </html>
